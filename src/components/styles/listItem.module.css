@@ -1,4 +1,8 @@
 .item {
-    font-weight: 500;
     color: rgba(174, 184, 26, 0.781);
+}
+
+.title {
+    font-weight: 500;
+    cursor: pointer;
 }
