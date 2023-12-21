@@ -1,8 +1,9 @@
 .item {
-    color: rgba(174, 184, 26, 0.781);
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
 }
 
 .title {
-    font-weight: 500;
     cursor: pointer;
 }
