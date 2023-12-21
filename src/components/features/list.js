@@ -1,9 +1,9 @@
 import styles from '../styles/list.module.css'
 import ListItem from './listItem';
 import { useState } from 'react';
-import EducationDetails from './educationDetails';
-import ExperienceDetails from './experienceDetails'
-import ProjectDetails from './projectDetails';
+import EducationDetails from './education';
+import ExperienceDetails from './experience'
+import ProjectDetails from './projects';
 
 function List() {
     const items = ["Projects", "Experience", "Education"]
