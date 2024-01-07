@@ -1,7 +1,6 @@
 import styles from '../styles/projects.module.css'
 import Text from 'react'
 function Projects() {
-  
 
     const userProjects = [
         {
@@ -9,14 +8,16 @@ function Projects() {
             teamSize: 1,
             techStack: 'Ruby on Rails, GraphQL, React, postgres',
             hostedUrl: 'https://shorecasts.com',
-            github: '',
+            githubFe: 'private',
+            githubBe: 'private',
         },
         {
             name: 'Shrimp Republic',
             teamSize: 2,
             techStack: 'Ruby on Rails, GraphQL, React, postgres',
             hostedUrl: 'https://shrimp-republic.com',
-            github: '',
+            githubFe: '',
+            githubBe: '',
         },
     ]
 
