@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  color: rgb(22, 22, 121);
+  font-family: 'Arial', sans-serif;
+}
+

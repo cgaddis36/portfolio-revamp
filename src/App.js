@@ -1,12 +1,10 @@
 import './App.css';
-import ListItem from './components/features/listItem';
-
+import List from './components/features/list'
 function App() {
+
   return (
     <div className="App">
-      <ListItem title={"Projects"}/>
-      <ListItem title={"Experience"}/>
-      <ListItem title={"Education"}/>
+      <List/>
     </div>
   );
 }

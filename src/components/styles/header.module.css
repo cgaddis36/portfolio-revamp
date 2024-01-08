@@ -1,0 +1,29 @@
+.headerText {
+  font-size: 5vh;
+  padding: 1vh;
+  font-weight: bold;
+  font-family: 'URW Chancery L', cursive;
+}
+
+.headerLogo0 {
+  padding: 2vh;
+  height: 5vh;
+  width: auto;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.headerLogo1 {
+  padding: 2vh;
+  height: 5vh;
+  width: auto;
+}
+
+.main {
+  align-self: center;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  /* margin-bottom: 3vh; */
+}

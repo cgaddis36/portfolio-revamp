@@ -1,4 +1,42 @@
+.activeArrow {
+
+}
+.inactiveArrow {
+  
+}
+.activeTitle {
+  font-size: 4vh;
+  font-weight: bold;
+  margin-bottom: 3vh;
+  cursor: pointer;
+  border-right: .6vh solid rgb(22, 22, 121);
+  border-bottom: .6vh solid rgb(22, 22, 121);
+  border-radius: 3px;
+  margin-top: 2vh;
+  padding-right: .5vh;
+
+  padding-bottom: .5vh;
+  width: fit-content;
+}
+.inactiveTitle {
+  font-size: 3vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+.invisibleTitle {
+  font-size: 3vh;
+  font-weight: bold;
+  opacity: 0;
+  cursor: pointer;
+}
 .item {
-    font-weight: 500;
-    color: rgba(174, 184, 26, 0.781);
+  margin-bottom: 1vh;
+}
+
+.main {
+  color: rgb(158, 67, 10);
+}
+.title {
+  cursor: pointer;
+  margin-bottom: 1vh;
 }
