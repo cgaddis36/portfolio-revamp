@@ -4,35 +4,37 @@ import { useState } from 'react';
 import EducationDetails from './education';
 import ExperienceDetails from './experience'
 import ProjectDetails from './projects';
+import Header from './header';
 
 function List() {
     const items = ["Projects", "Experience", "Education"]
     const [active, setActive] = useState(0)
     
     return(
-        <div className={styles.main}>
-            <ListItem 
-                title={items[0]}
-                details={<ProjectDetails/>}
-                active={active}
-                setActive={setActive}
-                items={items}
-                />
-            <ListItem 
-                title={items[1]}
-                details={<ExperienceDetails/>}
-                active={active}
-                setActive={setActive}
-                items={items}
-                />
-            <ListItem 
-                title={items[2]}
-                details={<EducationDetails/>}
-                active={active}
-                setActive={setActive}
-                items={items}
-                />
-        </div>
+      <div className={styles.main}>
+        <Header/>
+          <ListItem 
+            title={items[0]}
+            details={<ProjectDetails/>}
+            active={active}
+            setActive={setActive}
+            items={items}
+            />
+          <ListItem 
+            title={items[1]}
+            details={<ExperienceDetails/>}
+            active={active}
+            setActive={setActive}
+            items={items}
+            />
+          <ListItem 
+            title={items[2]}
+            details={<EducationDetails/>}
+            active={active}
+            setActive={setActive}
+            items={items}
+            />
+      </div>
     )
 }
 
