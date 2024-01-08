@@ -1,3 +1,73 @@
+.description {
+  margin-bottom: 2vh;
+}
 .details {
-    color: rgb(28, 16, 94);
+  color: rgb(22, 22, 121);
+  width: 85vw;
+  text-align: left;
+  background-color: rgb(177, 177, 220, 20%);
+  padding-top: 5vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 5vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+}
+.githubLinks {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2vh;
+  margin-left: 1vw;
+  border-bottom: .2vh solid orange;
+}
+.githubPrivate {
+  cursor: none;
+  font-weight: bold;
+  font-size: 2vh;
+  margin-left: 1vw;
+  border-bottom: .2vh solid black;
+}
+.gitRow {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  justify-content: space-between;
+  margin-bottom: 1.5vh;
+}
+.name {
+  margin-bottom: 1vh;
+  font-weight: bold;
+  border-bottom: orange solid .2vh;
+  width: fit-content;
+  padding-bottom: .3vh;
+  cursor: pointer;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+}
+.projectColumn {
+  display: flex;
+  flex-direction: column;
+}
+.projectContainer {
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 2.5vh;
+  text-align: left;
+  margin-bottom: 2vh;
+
+  
+}
+.projectLogo {
+  max-height: 5vw;
+  width: 5vw;
+  cursor: pointer;
+  margin-top: 1.5vh;
+  margin-right: 2vw;
 }
