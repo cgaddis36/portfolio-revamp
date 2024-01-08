@@ -1,7 +1,8 @@
 .App {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  background-color: antiquewhite;
+  justify-content: flex-start;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(251, 229, 201);
 }
