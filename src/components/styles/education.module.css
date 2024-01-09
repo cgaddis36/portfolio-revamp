@@ -12,7 +12,7 @@
   align-self: flex-end;
   font-size: 2vh;
   border-bottom: .2vh solid orange;
-  padding-bottom: .2vh;
+  padding-bottom: 1px;
   font-weight: bold;
 }
 .icon {
@@ -51,9 +51,10 @@
   font-weight: bold;
   border-bottom: orange solid .2vh;
   width: fit-content;
-  padding-bottom: .3vh;
+  padding-bottom: 1px;
   font-size: 3vh;
   cursor: pointer;
+  align-self: flex-start;
 }
 .nameIconRow {
   display: flex;
