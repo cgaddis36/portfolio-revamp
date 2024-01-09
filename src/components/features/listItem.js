@@ -1,5 +1,4 @@
 import styles from '../styles/listItem.module.css';
-import chevronRight from '../images/chevronRight.svg'
 import caretLeftFill from '../images/caretLeftFill.svg'
 
 function ListItem({
