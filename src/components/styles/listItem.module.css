@@ -8,6 +8,7 @@
   width: auto;
 }
 .activeTitle {
+  text-shadow: -1px -1px 0 rgb(22, 22, 121), 1px -1px 0 rgb(22, 22, 121), -1px 1px 0 rgb(22, 22, 121), 1px 1px 0 rgb(22, 22, 121);
   font-size: 4vh;
   font-weight: bold;
   margin-bottom: 3vh;
@@ -25,6 +26,7 @@
   font-size: 3vh;
   font-weight: bold;
   cursor: pointer;
+  text-shadow: -1px -1px 0 rgb(22, 22, 121), 1px -1px 0 rgb(22, 22, 121), -1px 1px 0 rgb(22, 22, 121), 1px 1px 0 rgb(22, 22, 121);
 }
 .invisibleTitle {
   font-size: 3vh;
@@ -38,6 +40,7 @@
 
 .main {
   color: rgb(158, 67, 10);
+
 }
 .title {
   cursor: pointer;
