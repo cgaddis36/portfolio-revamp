@@ -48,7 +48,7 @@
   font-weight: bold;
   border-bottom: .2vh solid orange;
   padding-bottom: .3vh;
-
+  cursor: pointer;
 }
 .namePos {
   display: flex;

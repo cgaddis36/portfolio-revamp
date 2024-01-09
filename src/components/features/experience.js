@@ -67,7 +67,10 @@ function Experience() {
       <div className={styles.experience}>
         <div className={styles.namePositionRow}>
           <div className={styles.namePos}>
-            <div className={styles.name}>
+            <div 
+              className={styles.name}
+              onClick={()=>window.open(exp.url)}
+              >
               {exp.name} 
             </div>
             <div className={styles.position}>
