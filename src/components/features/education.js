@@ -12,8 +12,8 @@ function Education() {
     {
       name: 'University of Georgia',
       location: 'Athens, GA',
-      degree: 'Consumer Economic, Emphasis: Applied Analytics & Research',
-      major: 'Back-End Engineering',
+      degree: "Bachelor of Science",
+      major: 'Consumer Economic, Emphasis: Applied Analytics & Research',
       graduationDate: 'December 2017',
     }
   ]
@@ -21,7 +21,7 @@ function Education() {
   const renderEdu = (education) => {
     return (
       education.map((edu) => 
-      <div>
+      <div className={styles.name}>
         {edu.name}
       </div>
       )
