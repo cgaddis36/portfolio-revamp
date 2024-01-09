@@ -22,13 +22,13 @@ function Education() {
     return (
       education.map((edu) => 
       <div>
-      {edu.name}
+        {edu.name}
       </div>
       )
     )
   }
   return(
-    <div className={styles.details}>
+    <div className={styles.main}>
         {renderEdu(userEducation)}
     </div>
   )

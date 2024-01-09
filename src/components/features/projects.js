@@ -104,7 +104,7 @@ function Projects() {
   }
 
   return(
-    <div className={styles.details}>
+    <div className={styles.main}>
       {renderProjects(userProjects)}
     </div>
   )
