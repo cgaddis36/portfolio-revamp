@@ -1,8 +1,11 @@
 .activeArrow {
-
+  height: 3.5vh;
+  width: auto;
+  transform: rotate(-90deg);
 }
 .inactiveArrow {
-  
+  height: .2vh;
+  width: auto;
 }
 .activeTitle {
   font-size: 4vh;
