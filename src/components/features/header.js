@@ -6,7 +6,7 @@ function Header () {
     <div className={styles.main}>
       <img src={shoreCastsLogo} className={styles.headerLogo0}/>
       <div className={styles.headerText}>
-        Chase's Developer Portfolio 
+        Chase's Dev Portfolio 
       </div>
       <img src={shoreCastsLogo} className={styles.headerLogo1}/>
     </div>
