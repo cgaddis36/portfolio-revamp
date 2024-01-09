@@ -1,3 +1,53 @@
-.details {
-  color: rgb(28, 16, 94);
+.date {
+ margin-left: 15vw;
+}
+
+.dateTeamRow {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: .3vh;
+  border-bottom: .2vh solid orange;
+  margin-bottom: 2vh;
+
+}
+
+.description {
+  margin-bottom: .5vh;
+}
+
+.main {
+  color: rgb(22, 22, 121);
+  width: 85vw;
+  text-align: left;
+  background-color: rgb(177, 177, 220, 20%);
+  padding-top: 5vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 5vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Arial Narrow', sans-serif;
+
+}
+
+.name {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.namePositionRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: .5vh;
+  font-weight: bold;
+}
+
+.position {
+  margin-left: 2vw;
+  font-size: 1.8vh;
+
 }
