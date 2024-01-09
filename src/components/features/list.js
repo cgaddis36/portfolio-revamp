@@ -13,6 +13,7 @@ function List() {
     return(
       <div className={styles.main}>
         <Header/>
+        <div className={active === 0 ? styles.list : styles.noList}>
           <ListItem 
             title={items[0]}
             details={<ProjectDetails/>}
@@ -34,6 +35,7 @@ function List() {
             setActive={setActive}
             items={items}
             />
+        </div>
       </div>
     )
 }

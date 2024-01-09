@@ -1,3 +1,83 @@
-.details {
-  color: rgb(28, 16, 94);
+.date {
+  font-size: 2vh;
+  border-bottom: .2vh solid orange;
+  padding-bottom: .2vh;
+}
+.experience {
+  margin-bottom: 2vh;
+  background-color: rgba(218, 208, 208, 0.8);
+  padding: 1vh;
+  border-radius: 10px;
+}
+.tech {
+  padding-bottom: .3vh;
+  border-bottom: .2vh solid rgb(22, 22, 121);
+  margin-bottom: 2vh;
+}
+.techRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  font-size: 2vh;
+  font-weight: bold;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+.description {
+  margin-bottom: 1vh;
+  font-size: 2.5vh;
+}
+.main {
+  font-size: 2.5vh;
+  color: rgb(22, 22, 121);
+  width: 85vw;
+  text-align: left;
+  background-color: rgb(177, 177, 220, 20%);
+  padding-top: 5vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 5vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Arial Narrow', sans-serif;
+}
+.name {
+  font-weight: bold;
+  border-bottom: .2vh solid orange;
+  padding-bottom: .3vh;
+  cursor: pointer;
+}
+.namePos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 50vw;
+  align-items: center;
+}
+.namePositionRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: .5vh;
+  font-weight: bold;
+  padding-bottom: .2vh;
+}
+.position {
+  font-size: 2vh;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: row;
+}
+
+.teamSize{
+  font-size: 2.5vh;
+  padding-right: 1vh;
+  white-space: nowrap;
 }

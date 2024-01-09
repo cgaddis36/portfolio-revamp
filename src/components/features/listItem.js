@@ -1,5 +1,5 @@
 import styles from '../styles/listItem.module.css';
-import chevronRight from '../images/chevronRight.svg'
+import caretLeftFill from '../images/caretLeftFill.svg'
 
 function ListItem({
     title, 
@@ -27,7 +27,7 @@ function ListItem({
             onClick={() => setActive(setActiveItem(activeIndexer))}
             >
             {title}
-            <img src={chevronRight} className={active === activeIndexer ? styles.activeArrow : styles.inActiveArrow}/>
+            <img src={caretLeftFill} className={active === activeIndexer ? styles.activeArrow : styles.inActiveArrow}/>
           </div>
           
           {
@@ -44,6 +44,7 @@ function ListItem({
             onClick={() => setActive(setActiveItem(activeIndexer))}
             >
             {title}
+            <img src={caretLeftFill} className={active === activeIndexer ? styles.activeArrow : styles.inActiveArrow}/>
           </div>
           {
             active === activeIndexer ?
