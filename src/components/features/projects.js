@@ -21,7 +21,7 @@ function Projects() {
       teamSize: 1,
       techStack: 'Ruby on Rails, GraphQL, React, postgres',
       features: ["Fishing Shop Locator", "Fly Shop Services & Locator", "Marina Services", "Tidal Predictions", "Weather Forecasts"],
-      hostedUrl: 'https://shorecasts.com',
+      hostedUrl: 'https://www.shorecasts.com',
       githubFe: 'private',
       githubBe: 'private',
       description: 'Recreational fishing application designed to centralize the necessary tools for anglers to plan their days on the water.',
